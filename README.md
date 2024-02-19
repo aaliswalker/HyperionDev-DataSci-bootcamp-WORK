@@ -47,3 +47,27 @@ If you have any questions, feedback, or inquiries about my work in this reposito
 - LinkedIn: [Praise](https://www.linkedin.com/in/praise-ilechukwu/)
 
 ---
+
+# Descriptions
+
+## Capsone Project - NLP sentiment prediction 
+
+1. Description 
+The dataset consists of Amazon product reviews. It contains various columns such as ID, date added, date updated, reviews, ratings, and usernames. We are particularly interested in the 'reviews.text' column for sentiment analysis.
+
+2. Details of Preprocessing Steps
+I performed basic preprocessing steps to prepare the text data for sentiment analysis. This included removing missing values and applying text normalization techniques such as converting text to lowercase and removing punctuation.
+
+3. Evaluation of Results
+We tested our sentiment analysis model on a few sample product reviews. The model provided sentiment scores indicating the polarity and subjectivity of each review. Additionally, we calculated the similarity between two random product reviews using spaCy's similarity function.
+
+4. Strengths and Limitations
+Strengths:
+
+The model can accurately determine the sentiment of product reviews.
+SpaCy's similarity function provides a quantitative measure of similarity between reviews.
+
+Limitations:
+
+The model's accuracy may vary depending on the complexity and context of the reviews.
+Basic preprocessing steps may not capture all nuances of the text data, potentially affecting sentiment analysis results.
